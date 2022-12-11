@@ -1,0 +1,57 @@
+{
+    "Notice: Loading Directive": {
+        "prefix": "bkvload",
+        "body": [
+            "v-bkloading=\"{ isLoading: $1,zIndex: ${2:10} }\""
+        ],
+        "description": "Magic Box loading directive"
+    },
+
+    "Notice: Loading": {
+        "prefix": "bkload",
+        "body": [
+            ":is-loading=\"$1\""
+        ],
+        "description": "Magic Box loading"
+    },
+
+    "Notice: Tooltips": {
+        "prefix": "bktool",
+        "body": [
+            "v-bk-tooltips=\"{ content: '$1', showOnInit: '${2|true,false|}', placements: ['${3|auto,auto-start,auto-end,top-start,top,top-end,right-start,right,right-end,bottom-end,bottom,bottom-start,left-end,left,left-start|}'], trigger: '${5|mouseenter,mouseover,click| }'  }\""
+        ],
+        "description": "Magic Box Tooltips"
+    },
+
+    "Notice: Tooltips with theme": {
+        "prefix": "bktoolt",
+        "body": [
+            "v-bk-tooltips=\"{ content: '$1', theme: '${2|dark,light|}', showOnInit: '${3|true,false|}', placements: ['${4|auto,auto-start,auto-end,top-start,top,top-end,right-start,right,right-end,bottom-end,bottom,bottom-start,left-end,left,left-start|}'], trigger: '${5|mouseenter,mouseover,click|}' }\""
+        ],
+        "description": "Magic Box Tooltips widht theme"
+    },
+
+    "Directive: Clickoutside": {
+        "prefix": "bkvcos",
+        "body": [
+            "v-bk-clickoutside=\"$1\""
+        ],
+        "description": "Magic Box v-bk-clickoutside"
+    },
+
+    "Directive: Overflow Tips": {
+        "prefix": "bkvot",
+        "body": [
+            "v-bk-overflow-tips"
+        ],
+        "description": "Magic Box v-bk-overflow-tips"
+    },
+
+    "Directive: Copy": {
+        "prefix": "bkvcopy",
+        "body": [
+            "v-bk-copy=\"$1\""
+        ],
+        "description": "Magic Box v-bk-copy"
+    }
+}
